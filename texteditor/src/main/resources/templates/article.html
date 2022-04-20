@@ -9,26 +9,25 @@
 <body>
 
 
-       <!-- <img style="width:600px;" th:src="${showpost.get().getImage}" alt=""> -->
+
 
 <div class="container   ">
 
         <div class=" row justify-content-center">
-            <img src="https://sm.ign.com/ign_br/screenshot/default/naruto-shippuden_f134.png" class="" style="width:600px;" alt="">
-
+             <img style="width:600px;" th:src="${showpost.get().getImage}" alt=""> 
         </div>
 
 
 
         <div class="row justify-content-center">
-            <h1 class="" th:utext="${showpost.get().getName}">Test</h1>
+            <h1 class="" th:utext="${showpost.get().getName}"></h1>
         </div>
 
 
-        <div class="row justify-content-center">
-            <p th:utext="${showpost.get().getContent}">321213312312</p>
+        <div class="">
+            <p th:utext="${showpost.get().getContent}"></p>
 
-    </div>
+        </div>
 
 
 </div>
